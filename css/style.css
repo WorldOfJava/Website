@@ -1,0 +1,105 @@
+#wrapper {
+	width: 500px;
+	height: 500px;
+	border: 1px solid black; 
+}
+
+#absendenForm1 {
+	margin-top: 5px;
+}
+
+/*HEADER */ 
+header {
+	background-color: red;
+	position: fixed;
+	width: 100%;
+	height:50px;
+	top:0;
+	left: 0;
+	text-align: center;
+}
+
+header a {
+	text-decoration: none;
+	color: black;
+	border: solid blue 1px;
+	vertical-align: middle;
+}
+
+a:hover {
+	color: red;
+}
+
+/* FOOTER */
+footer {
+	background-color: red;
+	position: fixed;
+	width: 100%;
+	height:50px;
+	bottom:0;
+	left: 0;
+	text-align: center;
+}
+
+footer a {
+	text-decoration: none;
+	color: black;
+	margin-bottom: 15px;
+	padding: 15px;
+	
+}
+
+footer a:hover {
+	color: lightblue;
+}
+
+
+/* KONTAKT FORMULAR */
+#KontaktFormular {
+	background-color: #99ccff;
+}
+
+#kontaktVorname {
+	margin-top: 10px;
+	margin-left: 9px;
+}
+
+#phone {
+	margin-left: 18px;
+}
+
+#mailKontakt {
+	margin-left: 10px;
+	color: black;
+}
+
+textarea {
+	margin-left: 5px;
+}
+
+#nachricht {
+	margin-left: 5px;
+}
+
+#doSend {
+	margin-left: 5px;
+	margin-bottom: 10px;
+}
+
+.kontakt {
+	margin-left: 5px;
+}
+
+#btn {
+	width: 100%;
+}
+
+
+
+* {
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+	background-color: #99ccff;
+}
