@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+	<meta charset="utf-8">
+	<title>Registration</title>
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+	<p>
+		Bitte füllen Sie die nachfolgenden Eingabefelder aus,
+		um sich neu zu registrieren:
+	</p>
+	<form action="registrieren_antwort.php" method="POST">
+		<table>
+			<tr>
+				<td>Benutzername:</td>
+				<td><input type="text" name="Benutzername"></td>
+			</tr>
+			<tr>
+				<td>Passwort:</td>
+				<td><input type="password" name="passwort"></td>
+			</tr>
+		</table>
+		<input type="submit" name="registrieren_knopf" value="Registrieren">
+	</form>
+	
+	<ul>
+	<li><a href="http://localhost/Website/pages/anmelden_anfrage.html">Anmelden</a></li>
+	<li><a href="http://localhost/Website/Startseite.php">Startseite</a></li>
+	</ul>
+	
+</body>
+</html>

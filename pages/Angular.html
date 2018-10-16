@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="../css/style.css">
+	<meta charset="utf-8">
+	<script src="../js/calculator.js"></script>
+</head>
+
+<body>
+
+<h1>AngularJS Taschenrechner</h1>
+<div id="form3" ng-app="CalculatorApp" ng-controller="CalculatorController">
+<form>
+	Zahl1: <input type="number" ng-model="a">
+	<select ng-model="operator">
+    <option>+</option>
+    <option>-</option>
+    <option>*</option>
+    <option>/</option>
+	</select>
+	Zahl2: <input type="number" ng-model="b">
+	<p>{{ result() }}</p>
+</form>
+
+<ul>
+<li><a href="http://localhost/Website/Startseite.php">Startseite</a></li>
+</ul>
+</body>
+
+</html>
